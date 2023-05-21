@@ -2,6 +2,8 @@ api:
   dashboard: true
   insecure: true
 
+ping: {}
+
 providers:
   file:
     directory: /etc/traefik/conf
