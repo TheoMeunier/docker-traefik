@@ -37,3 +37,11 @@ log:
 
 accessLog:
   filePath: './logs/access.log'
+
+metrics:
+  influxDB:
+    address: localhost:8086
+    database: treafik
+    username:
+    password:
+    pushInterval: 60s
