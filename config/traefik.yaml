@@ -20,7 +20,7 @@ certificatesResolvers:
   myresolver:
     acme:
       email: admin@exemple.com
-      storage: acme.json
+      storage: /certs/acme.json
       httpChallenge:
         entryPoint: web
 

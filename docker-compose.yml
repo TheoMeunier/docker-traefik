@@ -13,6 +13,8 @@ services:
       - "443:443"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./logs:/logs
+      - ./certs:/certs
       - ./config:/etc/traefik
     networks:
       - app_network
